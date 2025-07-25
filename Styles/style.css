@@ -1,3 +1,4 @@
+/* Heading-Banner */
 .navbar{
     background-image: url(../Assets/Hero-bg.png);
     height: 698px;
@@ -17,15 +18,18 @@
     margin: 50px 150px;
 
 }
+.first-btn{
+    margin: 50px 150px;
+}
 /* Shared Styles */
 .btn{
     color: white;
     background-color: blue;
-    height: 48px;
-    width: 132px;
-    border-radius: 10px;
-    margin: 50px 150px;
+    border-radius: 5px;
+    /* margin: 50px 150px; */
+    padding: 12px 20px;
 }
+/* Section 1 in main */
 .title{
     font-size: 65px;
     color: #252432;
@@ -41,4 +45,34 @@
 }
 .titleheading{
     margin: 116px;
+}
+.action{
+    display: flex;
+    width: 1140px;
+    height: 328px;
+    align-items: center;
+    justify-content: center;
+    margin: 116px 141px 159px;
+    gap: 220px;
+}
+.action-image{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+
+}
+.action-title{
+    text-align: left;
+    padding-left: 50px;
+    margin-top: 100px;
+    
+
+}
+.main-title{
+    font-size: 42;
+    font-weight: 800;
+}
+.discription-title{
+    font-size: 12;
+    width: 300px;
 }

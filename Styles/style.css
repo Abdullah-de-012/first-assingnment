@@ -1,0 +1,44 @@
+.navbar{
+    background-image: url(../Assets/Hero-bg.png);
+    height: 698px;
+    width: 1440px;
+}
+.navbarfirst{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: ;
+
+}
+.name{
+    font-size: 34 ;
+    font: bold;
+    color: blue;
+    margin: 50px 150px;
+
+}
+/* Shared Styles */
+.btn{
+    color: white;
+    background-color: blue;
+    height: 48px;
+    width: 132px;
+    border-radius: 10px;
+    margin: 50px 150px;
+}
+.title{
+    font-size: 65px;
+    color: #252432;
+    width: 905px;
+    height: 151px;
+    margin: 0 auto;
+    text-align: center;
+}
+.second-btn{
+    display: block;
+    margin: 30px auto;
+    
+}
+.titleheading{
+    margin: 116px;
+}

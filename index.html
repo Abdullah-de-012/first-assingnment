@@ -4,37 +4,102 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Styles/style.css">
 </head>
-<body>
+<body class="raleway-normal">
     <header class="navbar">
         <nav>
             <div class="navbarfirst">
                 <h1 class="name">LOGO</h1>
-                <button class="btn first-btn">Sing Up</button>
+                <button class="btn first-btn button">Sing Up</button>
             </div>
-            <div class="titleheading">
-                <h1 class="title">Cool Dark UI Template for Webflow Agencies!</h1>
-                <button class="btn second-btn">Stay Focused</button>
+            <div class="title-heading">
+                <h1 class="title">Cool Dark UI Template for <br> Webflow Agencies!</h1>
+
+                <button class="btn button">Stay Focused</button>
             </div>
         </nav>
 
     </header>
 
     <main>
-        <section class="action">
-            <div class="acton-title">
-                <h1 class="main-title">See It in Action</h1>
-                <p class="discription-title">Explore the live preview and imagine your brand in this bold new look</p>
-                <button class="btn third-btn">Lunch Live Preview</button>
+        <!-- First-Section -->
+        <section class="first-section">
+            <div class="action-title">
+                <div class="title-info">
+                    <h1 class="main-title">See It in Action</h1>
+                    <p class="discription-title">Explore the live preview and imagine your brand in this bold new look</p>
+                    <button class="btn third-btn button">Lunch Live Preview</button>
+                </div>
+                <img class="action-image" src="Assets/wc-mini.png" alt="">
             </div>
-            <img class="action-image" src="Assets/wc-mini.png" alt="">
 
+        </section>
+        <!-- Second Section -->
+        <section class="second-section">
+            <div class="second-section-item">
+                <p class="second-section-heading">Joined Thousands of Productive Users</p>
+                <div class="second-section-title">
+                    <div>
+
+                        <p> <span class="user-info">50K</span><br>Active Users</p>
+                    </div>
+                    <div>
+                        
+                        <p><span class="user-info">2M+</span><br>Focus Sessions</p>
+                    </div>
+                    <div>
+                        <p> <span class="user-info">95%</span><br>Satisfaction Rate</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Challange section -->
+        <section>
+
+        </section>
+        <!-- Third Section -->
+        <section class="third-section">
+            <div class="third-section-container">
+                <div class="third-section-title">
+                    <h1>Let's 
+                    Get in <br> Touch
+                    </h1>
+                </div>
+                <div>
+                    <form class="form">
+                        <div class="form-info">
+                            <label for="email">E-mail</label>
+                            <input placeholder="example@gmail.com" type="email" name="" id="email">
+                        </div>
+                        <div class="form-info">
+                            <label for="name">Name</label>
+                            <input placeholder="full name" type="text">
+                        </div>
+                        <div class="form-info">
+                            <label for="massage">Message</label>
+                            <textarea rows="4" cols="39" placeholder="write your message....." name="" id="massage"></textarea>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </section>
 
     </main>
-
-    <footer>
+    <!-- Footer Section -->
+    <footer class="footer-section">
+        <div class="footer-container">
+            <p class="center"><span class="center h1">LOGO</span><br> Ready to elevate your online presence? Contact us today to discuss <br> your project and discover how we can bring your vision to life.</p>
+            <div class="foter-link center">
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">How it Works</a>
+                <a href="">Services</a>
+            </div>
+        </div>
 
     </footer>
 </body>

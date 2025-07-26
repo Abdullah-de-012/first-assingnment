@@ -1,18 +1,32 @@
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* Heading-Banner */
 .navbar{
     background-image: url(../Assets/Hero-bg.png);
-    height: 698px;
     width: 1440px;
+    height: 698px;
 }
 .navbarfirst{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: ;
+
+}
+.title-heading{
+    text-align: center;
+    margin: 100px;
+    justify-content: center;
+    align-items: center;
 
 }
 .name{
-    font-size: 34 ;
+    font-size: 40px ;
     font: bold;
     color: blue;
     margin: 50px 150px;
@@ -20,6 +34,12 @@
 }
 .first-btn{
     margin: 50px 150px;
+}
+.title{
+    font-size: 65px;
+    color: #252432;
+    /* width: 905px; */
+    /* height: 151px; */
 }
 /* Shared Styles */
 .btn{
@@ -29,43 +49,31 @@
     /* margin: 50px 150px; */
     padding: 12px 20px;
 }
-/* Section 1 in main */
-.title{
-    font-size: 65px;
-    color: #252432;
-    width: 905px;
-    height: 151px;
-    margin: 0 auto;
-    text-align: center;
+/* First-section */
+.first-section{
+    width: 1140px;
+    height: 328px;
+    justify-content: center;
+    align-items: center;
+    margin: 116px 130px;
+    /* background-color: aliceblue; */
+
 }
-.second-btn{
-    display: block;
-    margin: 30px auto;
+
+.action-title{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
     
 }
 .titleheading{
     margin: 116px;
 }
-.action{
-    display: flex;
-    width: 1140px;
-    height: 328px;
-    align-items: center;
-    justify-content: center;
-    margin: 116px 141px 159px;
-    gap: 220px;
-}
+
 .action-image{
     width: 403px;
     height: 328px;
     border-radius: 48px;
-
-}
-.action-title{
-    text-align: left;
-    padding-left: 50px;
-    margin-top: 100px;
-    
 
 }
 .main-title{
@@ -73,6 +81,128 @@
     font-weight: 800;
 }
 .discription-title{
-    font-size: 12;
+    font-size: 22;
     width: 300px;
+}
+/* Second Section */
+.second-section{
+    background-color: #dddcf9ca;
+    width:1140px;
+    height: 306px;
+    text-align: center;
+    margin: 116px 130px;
+    /* padding: 50px 80px; */
+    border-radius: 24px;
+}
+.second-section-title{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    justify-content: space-around;
+
+}
+.second-section-heading{
+    font-size: 2em;
+    font-weight: bold;
+    padding-top: 50px;
+}
+.user-info{
+    font-size: 80px;
+    font-weight: bold;
+    color: blue;
+}
+/* Third Section */
+.third-section{
+    /* background-color: #dddcf9ca; */
+    width: 1140px;
+    height: 632px;
+    margin:116px 130px;
+}
+.third-section-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.third-section-title {
+    font-size: 50px;
+}
+.form{
+    margin-right: 0;
+    margin-top: 19px;
+}
+.form-info{
+    margin-top: 70px;
+    font-size: 18px;
+
+
+}
+form label{
+    display: block;
+}
+.form-info input{
+    width: 400px;
+    height: 70px;
+    border-radius: 3px;
+    font-size: 18px;
+}
+::placeholder{
+    padding: 12px 30px;
+    font-size: 1.2em;
+}
+textarea{
+    font-size: 18px;
+}
+/* Footer Section */
+.footer-section{
+    /* background-color: aqua; */
+    width: 1440px;
+    height: 428px;
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.center{
+    text-align: center;
+
+}
+.footer-container .h1{
+    font-size: 80px;
+    font-weight: bold;
+    color: blue;
+
+}
+.footer-container p{
+    color: #8987A1;
+
+}
+.foter-link a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: #8987A1;
+    
+}
+/* Challange Section */
+/* Button */
+.button {
+  /* padding: 15px 25px; */
+  /* font-size: 24px; */
+  /* text-align: center; */
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  /* background-color: #04AA6D; */
+  border: none;
+  /* border-radius: 15px; */
+  /* box-shadow: 0 9px #999; */
+}
+
+/* .button:hover {background-color: #3e8e41} */
+
+.button:active {
+  /* background-color: #3e8e41; */
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }

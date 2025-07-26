@@ -9,7 +9,7 @@
 /* Heading-Banner */
 .navbar{
     background-image: url(../Assets/Hero-bg.png);
-    width: 1440px;
+    width: auto;
     height: 698px;
 }
 .navbarfirst{
@@ -46,7 +46,6 @@
     color: white;
     background-color: blue;
     border-radius: 5px;
-    /* margin: 50px 150px; */
     padding: 12px 20px;
 }
 /* First-section */
@@ -55,7 +54,7 @@
     height: 328px;
     justify-content: center;
     align-items: center;
-    margin: 116px 130px;
+    margin: 116px auto;
     /* background-color: aliceblue; */
 
 }
@@ -90,8 +89,7 @@
     width:1140px;
     height: 306px;
     text-align: center;
-    margin: 116px 130px;
-    /* padding: 50px 80px; */
+    margin: 116px auto;
     border-radius: 24px;
 }
 .second-section-title{
@@ -110,13 +108,14 @@
     font-size: 80px;
     font-weight: bold;
     color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 /* Third Section */
 .third-section{
     /* background-color: #dddcf9ca; */
     width: 1140px;
     height: 632px;
-    margin:116px 130px;
+    margin:116px auto;
 }
 .third-section-container{
     display: flex;
@@ -155,8 +154,8 @@ textarea{
 }
 /* Footer Section */
 .footer-section{
-    /* background-color: aqua; */
-    width: 1440px;
+    background-color: #FFFFFF;
+    width: auto;
     height: 428px;
     margin-top: 14px;
     display: flex;
@@ -205,4 +204,51 @@ textarea{
   /* background-color: #3e8e41; */
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+}
+
+
+/* Users Feedback Section */
+.challenge-section{
+    width: 1140px;
+    height: 342px;
+    margin:116px auto;
+
+}
+.challenge-section h2{
+    text-align: center;
+    font-size: 40px;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+.card{
+    /* background-color: bisque; */
+    width: 366px;
+    height: 243px;
+    padding: 24px;
+    border-radius: 14px;
+    background-color: #FFFFFF;
+    
+}
+.user-pic{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 10px;
+}
+.user-pic img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    
+}
+.user-pic p{
+    font-size: small;
+}
+.main-bg{
+    background-color:aliceblue;
 }
